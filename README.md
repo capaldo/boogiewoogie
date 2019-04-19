@@ -4,10 +4,10 @@
 This theme for iTerm and vim is inspired by the colors seen on Piet Mondrian's "*Broadway Boogie Woogie*" and "*Vicory Boogie Woogie*". It
 currently only is available in a dark mode variant. 
 
-# vim
+## vim
 The vim theme currently supports the following:
 
-# Syntaxes/Filetypes:
+### Syntaxes/Filetypes:
 * eRuby
 * Ruby
 * Javascript
@@ -17,5 +17,5 @@ The vim theme currently supports the following:
 * Markdown (plastic-boy)
 * zsh configuration
 
-# vim Plug-Ins
+## vim Plug-Ins
 * Startify
