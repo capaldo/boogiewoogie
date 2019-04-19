@@ -1,1 +1,1 @@
-![boogiewoogie](/media/boogiewoogie.png)
+![boogiewoogie](/media/boogiewoogie.svg)
