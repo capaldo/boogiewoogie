@@ -7,7 +7,7 @@ currently only is available in a dark mode variant.
 ## vim
 The vim theme currently supports the following:
 
-### Syntaxes/Filetypes:
+### Syntaxes/Filetypes
 * eRuby
 * Ruby
 * Javascript
