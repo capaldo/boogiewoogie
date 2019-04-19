@@ -22,6 +22,6 @@ The vim theme currently supports the following:
 
 
 ## TODO
-- [] add vim light variant
-- [] add more syntaxes to vim colorscheme
-- [] add airline theme
+- [ ] add vim light variant
+- [ ] add more syntaxes to vim colorscheme
+- [ ] add airline theme
