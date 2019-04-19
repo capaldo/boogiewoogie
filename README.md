@@ -17,5 +17,5 @@ The vim theme currently supports the following:
 * Markdown (plastic-boy)
 * zsh configuration
 
-## vim Plug-Ins
+### vim Plug-Ins
 * Startify
