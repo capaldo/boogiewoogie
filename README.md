@@ -19,3 +19,9 @@ The vim theme currently supports the following:
 
 ### Plug-Ins
 * Startify
+
+
+## TODO
+- [] add vim light variant
+- [] add more syntaxes to vim colorscheme
+- [] add airline theme
