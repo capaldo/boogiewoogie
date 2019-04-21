@@ -26,11 +26,11 @@ cmus is a simple terminal music player. Check out the *boogiewoogie* theme for i
 ### Installation (macOS)
 After cloning the repo:
 * go to the repositories folder
-`cd ./boogiewoogie`
+  `cd ./boogiewoogie`
 * move the theme to the default location for the cmus theme
-`mv ./boogiewoogie.theme ~/.config/cmus/`
+  `mv ./boogiewoogie.theme ~/.config/cmus/`
 * then set the theme after starting cmus 
-`:colorscheme boogiewoogie`
+  `:colorscheme boogiewoogie`
 
 ## TODO
 - [ ] add vim light variant
