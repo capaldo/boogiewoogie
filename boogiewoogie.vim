@@ -140,6 +140,7 @@ hi StartifyFile ctermfg=NONE ctermbg=NONE cterm=bold guifg=#fbdb1e guibg=NONE gu
 hi StartifyBracket ctermfg=NONE ctermbg=NONE cterm=bold guifg=#ffffff guibg=NONE gui=bold
 hi StartifySlash ctermfg=NONE ctermBG=NONE cterm=bold guifg=#3e3e3e guibg=NONE gui=bold
 
+
 " zsh
 hi zshVariableDef ctermfg=NONE ctermBG=NONE cterm=bold guifg=#fbdb1e guibg=NONE gui=bold
 hi zshDeref ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#53c22b guibg=NONE gui=NONE

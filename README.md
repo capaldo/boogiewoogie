@@ -1,7 +1,7 @@
 ![boogiewoogie](/media/boogiewoogieheader.png)
 
 # Description
-This theme for iTerm, vim, and cmus is inspired by the colors seen on Piet Mondrian's *Broadway Boogie Woogie* and *Victory Boogie Woogie*. It's
+This is a theme/configuration/dotfile that I'm currently using for iTerm, vim, and cmus is inspired by the colors seen on Piet Mondrian's *Broadway Boogie Woogie* and *Victory Boogie Woogie*. It's
 currently only is available in a dark mode variant. 
 
 ## vim
