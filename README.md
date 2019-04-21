@@ -21,6 +21,7 @@ The vim theme currently supports the following:
 * Startify
 
 ## cmus
+![cmus](/media/cmus.png)
 cmus is a simple terminal music player. Check out the *boogiewoogie* theme for it below. 
 
 ### Installation (macOS)
