@@ -20,6 +20,20 @@ The vim theme currently supports the following:
 ### Plug-Ins
 * Startify
 
+### Installation (macOS)
+After cloning the repo:
+* go to the repositories folder
+```bash
+cd ./boogiewoogie
+```
+* move the theme to the default location for vim
+```bash
+mv ./boogiewoogie.vim ~/.vim/colors/
+```
+* add the following to your `.vimrc`
+```bash
+colorscheme boogiewoogie
+```
 ## cmus
 cmus is a simple terminal music player. Check out the *boogiewoogie* theme for it below. 
 ![cmus](/media/cmus.png)
