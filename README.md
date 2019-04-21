@@ -5,6 +5,8 @@ This theme for iTerm, vim, and cmus is inspired by the colors seen on Piet Mondr
 currently only is available in a dark mode variant. 
 
 ## vim
+A powerful and easy to use text editor.
+![vim](/media/vim.png)
 The vim theme currently supports the following:
 
 ### Syntaxes/Filetypes
@@ -35,8 +37,9 @@ mv ./boogiewoogie.vim ~/.vim/colors/
 colorscheme boogiewoogie
 ```
 ## cmus
-cmus is a simple terminal music player. Check out the *boogiewoogie* theme for it below. 
+Simple and extensible terminal music player.
 ![cmus](/media/cmus.png)
+
 ### Installation (macOS)
 After cloning the repo:
 * go to the repositories folder
