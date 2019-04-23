@@ -133,6 +133,7 @@ hi mkdHeading ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#292929 guibg=NONE gui=
 hi mkdItalic ctermfg=NONE ctermbg=NONE cterm=italic guifg=#292929 guibg=NONE gui=italic
 hi mkdListItem ctermfg=NONE ctermbg=NONE cterm=bold guifg=#005BBB guibg=NONE gui=bold
 hi mkdLink  ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FBDB1E guibg=NONE gui=bold
+hi mkdCode  ctermfg=NONE ctermbg=NONE cterm=bold guifg=#53C22B guibg=NONE gui=bold
 
 "startify
 hi StartifySection ctermfg=NONE ctermbg=NONE cterm=bold guifg=#131313 guibg=#D71F07 gui=bold
