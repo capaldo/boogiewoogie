@@ -128,9 +128,9 @@ hi cssBraces        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE g
 hi pythonStatement ctermfg=81 ctermbg=NONE cterm=NONE guifg=#005BBB guibg=NONE gui=italic
 hi pythonBuiltin   ctermfg=81 ctermbg=NONE cterm=NONE guifg=#005BBB guibg=NONE gui=italic
 
-" markdown
-hi mkdHeading ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=NONE gui=bold
-hi mkdItalic ctermfg=NONE ctermbg=NONE cterm=italic guifg=#131313 guibg=NONE gui=italic
+" markdown - plasticboy
+hi mkdHeading ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#292929 guibg=NONE gui=bold
+hi mkdItalic ctermfg=NONE ctermbg=NONE cterm=italic guifg=#292929 guibg=NONE gui=italic
 hi mkdListItem ctermfg=NONE ctermbg=NONE cterm=bold guifg=#005BBB guibg=NONE gui=bold
 hi mkdLink  ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FBDB1E guibg=NONE gui=bold
 
@@ -141,16 +141,26 @@ hi StartifyBracket ctermfg=NONE ctermbg=NONE cterm=bold guifg=#EDEDED guibg=NONE
 hi StartifySlash ctermfg=NONE ctermBG=NONE cterm=bold guifg=#292929 guibg=NONE gui=bold
 hi StartifyPath ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#292929 guibg=NONE gui=NONE
 
-
 " zsh
 hi zshVariableDef ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB1E guibg=NONE gui=bold
 hi zshDeref ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#53C22B guibg=NONE gui=NONE
 hi zshShortDeref ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#53C22B guibg=NONE gui=NONE
 hi zshCommands ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#D71F07 guibg=NONE gui=NONE
 hi zshString ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#EDEDED guibg=NONE gui=NONE
-hi zshComment ctermfg=NONE ctermBG=NONE cterm=italic guifg=#131313 guibg=NONE gui=italic
+hi zshComment ctermfg=NONE ctermBG=NONE cterm=italic guifg=#292929 guibg=NONE gui=italic
 hi zshOperator ctermfg=NONE ctermBG=NONE cterm=italic guifg=#FEFDC2 guibg=NONE gui=italic
 hi zshStringDelimiter ctermfg=NONE ctermBG=NONE cterm=bold guifg=#005BBB guibg=NONE gui=bold
 hi zshSubStDelim ctermfg=NONE ctermBG=NONE cterm=bold guifg=#005BBB guibg=NONE gui=bold
 hi zshNumber ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#53C22B guibg=NONE gui=NONE
 hi zshKSHFunction ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB1E guibg=NONE gui=bold
+
+" nerdtree
+hi NERDTreeDirSlash ctermfg=NONE ctermBG=NONE cterm=bold guifg=#292929 guibg=NONE gui=bold
+hi NERDTreeClosable ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#292929 guibg=NONE gui=NONE
+hi NERDTreeCWD ctermfg=NONE ctermBG=NONE cterm=bold guifg=#D71F07 guibg=NONE gui=bold
+hi NERDTreePart ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#292929 guibg=NONE gui=NONE
+hi NERDTreeOpenable ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#292929 guibg=NONE gui=NONE
+hi NERDTreeDir ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#292929 guibg=NONE gui=NONE
+
+" vim config
+hi vimIsCommand ctermfg=NONE ctermBG=NONE cterm=bold guifg=#EDEDED guibg=NONE gui=bold
