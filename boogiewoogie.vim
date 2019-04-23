@@ -11,7 +11,7 @@ let g:colors_name = "boogiewoogie"
 
 hi Cursor       cterm=NONE guifg=#131313 guibg=#EDEDED 
 hi Visual       ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#131313 gui=NONE
-hi CursorLine   ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#131313 gui=NONE
+hi CursorLine   ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#555556 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#131313 gui=NONE
 hi ColorColumn  ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#131313 gui=NONE
 hi LineNr       ctermfg=223 ctermbg=NONE cterm=NONE guifg=#292929 guibg=#131313 gui=NONE
