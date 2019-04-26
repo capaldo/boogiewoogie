@@ -19,8 +19,8 @@ hi VertSplit    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#292929 guibg=#131313
 hi MatchParen   ctermfg=NONE ctermbg=NONE cterm=bold guifg=#D71F07 guibg=NONE gui=bold
 hi StatusLine   ctermfg=NONE ctermbg=NONE cterm=bold guifg=#EDEDED guibg=#131313 gui=bold
 hi StatusLineNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#EDEDED guibg=#131313 gui=NONE
-hi Pmenu        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#131313 gui=NONE
-hi PmenuSel     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#131313 gui=NONE
+hi Pmenu        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#EDEDED guibg=#131313 gui=NONE
+hi PmenuSel     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=#EDEDED gui=NONE
 hi IncSearch    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=#FBDB1E gui=NONE
 hi Search       ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=NONE gui=NONE
