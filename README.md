@@ -56,13 +56,12 @@ After cloning the repo:
   :colorscheme boogiewoogie
   ```
 
-## Colors Used
-### Color Scheme 
+## Color Scheme 
 | Color        | Hex Code |
 | ------------ | -------- |
 | Black        | #000000  |
 | Light Black  | #131313  |
-| Grey         | #292929  |
+| Grey         | #383838  |
 | White        | #F0F0F0  |
 | Off White    | #DEDEDE  |
 | Yellow       | #FBDB42  |
