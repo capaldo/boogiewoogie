@@ -101,7 +101,7 @@ hi htmlTag          ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE g
 hi htmlEndTag       ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlTagName      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlArg          ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi htmlSpecialChar  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF9000 guibg=NONE gui=NONE
+hi htmlSpecialChar  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 
 " JavaScript
 hi javaScriptFunction      ctermfg=NONE ctermbg=NONE cterm=italic guifg=#067BC3 guibg=NONE gui=italic
