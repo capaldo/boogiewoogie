@@ -166,6 +166,7 @@ hi mkdHeading ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=
 hi mkdDelimiter ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi mkdCodeDelimiter ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi mkdItalic ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
+hi mkdBold ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
 hi mkdListItem ctermfg=NONE ctermbg=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
 hi mkdLink  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
 hi mkdCode  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
