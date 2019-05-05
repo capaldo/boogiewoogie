@@ -2,8 +2,6 @@
 This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by the colors seen on Piet Mondrian's *Broadway Boogie Woogie* and *Victory Boogie Woogie*. It's currently only is available in a dark mode variant. For a matching Anki theme, check out the [ankiBW repository](https://github.com/capaldo/ankiBW).
 
 ## vim
-A powerful and easy to use text editor.
-![vim](/screenshots/vim.png)
 The vim theme currently supports the following:
 
 ### Syntaxes/Filetypes
@@ -37,7 +35,6 @@ mv ./boogiewoogie.vim ~/.vim/colors/
 colorscheme boogiewoogie
 ```
 ## cmus
-Simple and extensible terminal music player.
 ![cmus](/screenshots/cmus.png)
 
 ### Installation (macOS)
