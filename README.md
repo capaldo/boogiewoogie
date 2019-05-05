@@ -55,6 +55,22 @@ After cloning the repo:
   :colorscheme boogiewoogie
   ```
 
+## Colors Used
+### Color Scheme 
+| Color        | Hex Code |
+| ------------ | -------- |
+| Black        | #000000  |
+| Light Black  | #131313  |
+| Grey         | #292929  |
+| White        | #F0F0F0  |
+| Off White    | #DEDEDE  |
+| Yellow       | #FBDB42  |
+| Green        | #56C13F  |
+| Red          | #D62317  |
+| Blue         | #067BC3  |
+| Orange       | #FF9000  |
+| Purple       | #B55EFF  |
+
 ## TODO
 - [ ] add vim light variant
 - [ ] add more syntaxes to vim colorscheme
