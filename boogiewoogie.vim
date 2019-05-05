@@ -104,7 +104,7 @@ hi htmlArg          ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE g
 hi htmlSpecialChar  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF9000 guibg=NONE gui=NONE
 
 " JavaScript
-hi javaScriptFunction      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=italic
+hi javaScriptFunction      ctermfg=NONE ctermbg=NONE cterm=italic guifg=#067BC3 guibg=NONE gui=italic
 hi javaScriptRailsFunction ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi javaScriptBraces        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
@@ -116,13 +116,46 @@ hi yamlDocumentHeader   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg
 
 " CSS
 hi cssURL           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#B55EFF guibg=NONE gui=italic
-hi cssFunctionName  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
-hi cssColor         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF9000 guibg=NONE gui=NONE
-hi cssPseudoClassId ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
-hi cssClassName     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
-hi cssValueLength   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF9000 guibg=NONE gui=NONE
-hi cssCommonAttr    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
-hi cssBraces        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+hi cssStringQQ  ctermfg=NONE ctermbg=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
+hi cssStringQ  ctermfg=NONE ctermbg=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
+
+hi cssColor         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+
+hi cssPseudoClassId ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#B55EFF guibg=NONE gui=NONE
+hi cssPseudoClass ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#B55EFF guibg=NONE gui=NONE
+hi cssClassName     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
+hi cssTagName     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
+hi cssClassNameDot     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
+
+hi cssValueLength   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi cssUnitDecorators ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi cssUnitValueTime ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi cssUnitValueAngle ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi cssValueNumber ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi cssValueTime ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi cssValueAngle ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+
+hi cssCommonAttr    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+
+hi cssFontProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssTextProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssBoxProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssBackgroundProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssBorderProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssIEUIProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssUIProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssColorProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssFlexibleBoxProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssMediaProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssTransitionProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssTransformProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssFontDescriptorProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssPositioningProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi cssPageProp    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+
+hi cssBraces        ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
+hi cssFunctionName        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
 
 " Python
 hi pythonStatement ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=italic
