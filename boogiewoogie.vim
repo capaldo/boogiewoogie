@@ -42,18 +42,18 @@ hi DiffAdd      ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=#56C13F
 hi DiffDelete   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi DiffChange   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#067BC3 gui=NONE
 hi DiffText     ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=#067BC3 gui=bold
-hi ErrorMsg     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#f92672 gui=NONE
-hi WarningMsg   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#f92672 gui=NONE
+hi ErrorMsg     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#B55EFF gui=NONE
+hi WarningMsg   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#B55EFF gui=NONE
 hi Float        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF9000 guibg=NONE gui=NONE
 hi Function     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi Identifier   ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi Keyword      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi Label        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
-hi NonText      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FEFDC2 guibg=#131313 gui=NONE
+hi NonText      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#B55EFF guibg=#131313 gui=NONE
 hi Number       ctermfg=NONE ctermbg=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=NONE
 hi Operator     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi PreProc      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
-hi Parameter    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FEFDC2 guibg=NONE gui=italic
+hi Parameter    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#B55EFF guibg=NONE gui=italic
 hi Special      ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
 hi SpecialKey   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=#131313 gui=bold
 hi Statement    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
@@ -73,7 +73,7 @@ hi rubyInterpolationDelimiter   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE 
 hi rubySymbol                   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF9000 guibg=NONE gui=NONE
 hi rubyConstant                 ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=italic
 hi rubyStringDelimiter          ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
-hi rubyBlockParameter           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FEFDC2 guibg=NONE gui=italic
+hi rubyBlockParameter           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#B55EFF guibg=NONE gui=italic
 hi rubyInstanceVariable         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi rubyInclude                  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi rubyGlobalVariable           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -115,7 +115,7 @@ hi yamlAlias            ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NO
 hi yamlDocumentHeader   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
 
 " CSS
-hi cssURL           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FEFDC2 guibg=NONE gui=italic
+hi cssURL           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#B55EFF guibg=NONE gui=italic
 hi cssFunctionName  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi cssColor         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FF9000 guibg=NONE gui=NONE
 hi cssPseudoClassId ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
@@ -149,7 +149,7 @@ hi zshShortDeref ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE g
 hi zshCommands ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi zshString ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
 hi zshComment ctermfg=NONE ctermBG=NONE cterm=italic guifg=#292929 guibg=NONE gui=italic
-hi zshOperator ctermfg=NONE ctermBG=NONE cterm=italic guifg=#FEFDC2 guibg=NONE gui=italic
+hi zshOperator ctermfg=NONE ctermBG=NONE cterm=italic guifg=#B55EFF guibg=NONE gui=italic
 hi zshStringDelimiter ctermfg=NONE ctermBG=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
 hi zshSubStDelim ctermfg=NONE ctermBG=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
 hi zshNumber ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
@@ -167,4 +167,3 @@ hi NERDTreeDir ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#292929 guibg=NONE gui
 hi vimIsCommand ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi vimHiGroup ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi vimGroup ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
-
