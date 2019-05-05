@@ -62,13 +62,10 @@ After cloning the repo:
 | Light Black  | #131313  |
 | Grey         | #383838  |
 | White        | #F0F0F0  |
-| Off White    | #DEDEDE  |
 | Yellow       | #FBDB42  |
 | Green        | #56C13F  |
 | Red          | #D62317  |
 | Blue         | #067BC3  |
-| Orange       | #FF9000  |
-| Purple       | #B55EFF  |
 
 ## TODO
 - [ ] add vim light variant
