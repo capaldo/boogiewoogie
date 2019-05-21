@@ -164,12 +164,12 @@ hi pythonBuiltin   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE
 " markdown - plasticboy
 hi mkdHeading ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi mkdDelimiter ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
-hi mkdCodeDelimiter ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
+hi mkdCodeStart ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
+hi mkdCodeEnd ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi mkdItalic ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
 hi mkdBold ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
 hi mkdListItem ctermfg=NONE ctermbg=NONE cterm=bold guifg=#D62317 guibg=NONE gui=bold
-hi mkdLink  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
-hi mkdCode  ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi mkdLink  ctermfg=NONE ctermbg=NONE cterm=bold,italic guifg=#FBDB42 guibg=NONE gui=bold
 hi htmlBold ctermfg=NONE ctermbg=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
 hi htmlItalic ctermfg=NONE ctermbg=NONE cterm=italic guifg=#067BC3 guibg=NONE gui=italic
 hi htmlH1 ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
