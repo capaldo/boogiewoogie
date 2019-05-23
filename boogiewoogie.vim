@@ -1,19 +1,22 @@
-" ======================================================================================
+" ===========================================================================================================
 " general
-" ======================================================================================
+" ===========================================================================================================
 set background=dark
 highlight clear
 set t_Co=256
 if exists("syntax_on")
   syntax reset
 endif
-" ======================================================================================
 
-" ======================================================================================
+
+" ===========================================================================================================
 " lets boogie
-" ======================================================================================
+" ===========================================================================================================
 let g:colors_name = "boogiewoogie"
 
+
+" general vim
+" ===========================================================================================================
 hi Cursor			cterm=NONE guifg=#131313 guibg=#F0F0F0 
 hi Visual			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi CursorLine			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#000000 guibg=#383838 gui=NONE
@@ -30,11 +33,6 @@ hi IncSearch			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=#FBDB42 
 hi Search			ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=NONE gui=NONE
 hi Folded			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=#131313 gui=NONE
-
-" colors for tabs in cterm
-hi TabLineFill			ctermfg=NONE
-hi TabLine			ctermfg=NONE ctermbg=NONE cterm=NONE
-hi TabLineSel			ctermfg=8 ctermbg=NONE cterm=NONE
 
 hi Normal			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#131313 gui=NONE
 hi Boolean			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
@@ -71,7 +69,15 @@ hi Type				ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Underlined			ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 
 
-" Ruby
+" colors for tabs in cterm
+" ===========================================================================================================
+hi TabLineFill			ctermfg=NONE
+hi TabLine			ctermfg=NONE ctermbg=NONE cterm=NONE
+hi TabLineSel			ctermfg=8 ctermbg=NONE cterm=NONE
+
+
+" ruby
+" ===========================================================================================================
 hi rubyClass                    ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi rubyFunction                 ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -97,11 +103,13 @@ hi rubyRailsRenderMethod        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067B
 hi rubyRailsMethod              ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 
 " eRuby
+" ===========================================================================================================
 hi erubyDelimiter		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi erubyComment			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi erubyRailsMethod		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 
 " HTML
+" ===========================================================================================================
 hi htmlTag			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlEndTag			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlTagName			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -109,17 +117,20 @@ hi htmlArg			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi htmlSpecialChar		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 
 " JavaScript
+" ===========================================================================================================
 hi javaScriptFunction		ctermfg=NONE ctermbg=NONE cterm=italic guifg=#067BC3 guibg=NONE gui=italic
 hi javaScriptRailsFunction	ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi javaScriptBraces		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
-"	YAMl
+" YAML
+" ===========================================================================================================
 hi yamlKey			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi yamlAnchor			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlAlias			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlDocumentHeader		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
 
 " CSS
+" ===========================================================================================================
 hi cssURL			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=italic
 hi cssStringQQ			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
 hi cssStringQ			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
@@ -137,7 +148,6 @@ hi cssValueNumber		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE
 hi cssValueTime			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi cssValueAngle		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi cssCommonAttr		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
-
 hi cssFontProp			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi cssTextProp			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi cssBoxProp			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
@@ -153,15 +163,16 @@ hi cssTransformProp		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NO
 hi cssFontDescriptorProp	ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi cssPositioningProp		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
 hi cssPageProp			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
-
 hi cssBraces			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 hi cssFunctionName		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
 
 " Python
+" ===========================================================================================================
 hi pythonStatement		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=italic
 hi pythonBuiltin		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=italic
 
 " markdown - plasticboy
+" ===========================================================================================================
 hi mkdHeading			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi mkdDelimiter			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi mkdCodeStart			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
@@ -180,7 +191,8 @@ hi htmlH5			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bo
 hi htmlH6			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 
 
-"startify
+" startify
+" ===========================================================================================================
 hi StartifySection		ctermfg=NONE ctermbg=NONE cterm=bold guifg=#131313 guibg=#D62317 gui=bold
 hi StartifyFile			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 hi StartifyBracket		ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
@@ -188,6 +200,7 @@ hi StartifySlash		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#383838 guibg=NONE 
 hi StartifyPath			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#383838 guibg=NONE gui=NONE
 
 " zsh
+" ===========================================================================================================
 hi zshVariableDef		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 hi zshDeref			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi zshShortDeref		ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
@@ -201,6 +214,7 @@ hi zshNumber			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui
 hi zshKSHFunction		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 
 " nerdtree
+" ===========================================================================================================
 hi NERDTreeDirSlash		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi NERDTreeClosable		ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#383838 guibg=NONE gui=NONE
 hi NERDTreeCWD			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#D62317 guibg=NONE gui=bold
@@ -209,6 +223,7 @@ hi NERDTreeOpenable		ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#383838 guibg=NO
 hi NERDTreeDir		    	ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#383838 guibg=NONE gui=NONE
 
 " vim config
+" ===========================================================================================================
 hi vimIsCommand			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi vimHiGroup			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi vimGroup			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
