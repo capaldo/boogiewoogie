@@ -200,7 +200,7 @@ hi zshSubStDelim	        ctermfg=NONE ctermBG=NONE cterm=bold guifg=#067BC3 guib
 hi zshNumber			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi zshKSHFunction		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 
-"		nerdtree
+" nerdtree
 hi NERDTreeDirSlash		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
 hi NERDTreeClosable		ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#383838 guibg=NONE gui=NONE
 hi NERDTreeCWD			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#D62317 guibg=NONE gui=bold
