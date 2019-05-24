@@ -8,6 +8,8 @@ if exists("syntax_on")
   syntax reset
 endif
 
+highlight LineSix guifg=red ctermfg=red
+syntax match LineSix "---"
 
 " ===========================================================================================================
 " lets boogie
@@ -180,6 +182,9 @@ hi mkdCodeEnd			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gu
 hi mkdItalic			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
 hi mkdBold			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
 hi mkdListItem			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#D62317 guibg=NONE gui=bold
+hi mkdRule			ctermfg=NONE ctermbg=white cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+
+
 hi mkdLink			ctermfg=NONE ctermbg=NONE cterm=bold,italic guifg=#FBDB42 guibg=NONE gui=bold
 hi htmlBold			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
 hi htmlItalic			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#067BC3 guibg=NONE gui=italic
@@ -227,3 +232,20 @@ hi NERDTreeDir		    	ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#383838 guibg=NO
 hi vimIsCommand			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi vimHiGroup			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi vimGroup			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
+
+" sh
+" ===========================================================================================================
+hi shOption			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=NONE
+hi shNumber			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi shOperator			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#383838 guibg=NONE gui=bold
+hi shOK				ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
+hi shQuote			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#D62317 guibg=NONE gui=bold
+hi shRedir			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+" custom
+hi shSudo			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
+hi shDefaults			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
+hi shMID			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+hi shMCMD			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
+hi shTr				ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi shFa				ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi shSLA			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
