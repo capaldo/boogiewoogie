@@ -8,8 +8,6 @@ if exists("syntax_on")
   syntax reset
 endif
 
-highlight LineSix guifg=red ctermfg=red
-syntax match LineSix "---"
 
 " ===========================================================================================================
 " lets boogie
@@ -19,7 +17,7 @@ let g:colors_name = "boogiewoogie"
 
 " general vim
 " ===========================================================================================================
-hi Cursor			cterm=NONE guifg=#131313 guibg=#F0F0F0 
+hi Cursor			cterm=NONE guifg=#131313 guibg=#F0F0F0
 hi Visual			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi CursorLine			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#000000 guibg=#383838 gui=NONE
 hi CursorColumn			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#131313 gui=NONE
@@ -182,12 +180,12 @@ hi mkdCodeEnd			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#383838 guibg=NONE gu
 hi mkdItalic			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
 hi mkdBold			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#383838 guibg=NONE gui=italic
 hi mkdListItem			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#D62317 guibg=NONE gui=bold
-hi mkdRule			ctermfg=NONE ctermbg=white cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+hi mkdRule			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=reverse
 
 
-hi mkdLink			ctermfg=NONE ctermbg=NONE cterm=bold,italic guifg=#FBDB42 guibg=NONE gui=bold
-hi htmlBold			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
-hi htmlItalic			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#067BC3 guibg=NONE gui=italic
+hi mkdLink			ctermfg=NONE ctermbg=NONE cterm=bold,italic guifg=#067BC3 guibg=NONE gui=bold
+hi htmlBold			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#56C13F guibg=NONE gui=bold
+hi htmlItalic			ctermfg=NONE ctermbg=NONE cterm=italic guifg=#FBDB42 guibg=NONE gui=italic
 hi htmlH1			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi htmlH2			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
 hi htmlH3			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
