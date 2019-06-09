@@ -1,6 +1,4 @@
-<p align="center">
-![boogiewoogie](/screenshots/boogiewoogieheader.png)
-</p>
+![boogiewoogie](screenshots/boogiewoogieheader.png)
 <p align="center">
 <img src="https://img.shields.io/github/last-commit/capaldo/boogiewoogie.svg?color=Black&label=Last%20Updated&style=for-the-badge"></img>
 <img src="https://img.shields.io/github/issues/capaldo/boogiewoogie.svg?style=for-the-badge"></img>
