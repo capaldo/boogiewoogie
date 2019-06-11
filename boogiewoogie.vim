@@ -250,6 +250,7 @@ hi shSLA			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bol
 
 " applescript
 hi scptCond			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
+hi scptApp			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi scptENDIF			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 hi scptString			ctermfg=NONE ctermBG=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
 hi scptDelimiter		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
