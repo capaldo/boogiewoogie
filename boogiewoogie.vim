@@ -239,7 +239,7 @@ hi shOperator			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#383838 guibg=NONE gu
 hi shOK				ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 hi shQuote			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#D62317 guibg=NONE gui=bold
 hi shRedir			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
-" custom
+" custom sh
 hi shSudo			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi shDefaults			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi shMID			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
@@ -247,3 +247,9 @@ hi shMCMD			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NO
 hi shTr				ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi shFa				ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi shSLA			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
+
+" applescript
+hi scptCond			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
+hi scptENDIF			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
+hi scptString			ctermfg=NONE ctermBG=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
+hi scptDelimiter		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
