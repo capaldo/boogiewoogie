@@ -30,7 +30,7 @@ hi Pmenu			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#383838 gui=
 hi PmenuSel			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=#D62317 gui=NONE
 hi IncSearch			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=#FBDB42 gui=NONE
 hi Search			ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-hi Directory			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#131313 guibg=NONE gui=NONE
+hi Directory			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
 hi Folded			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=#131313 gui=NONE
 
 hi Normal			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#F0F0F0 guibg=#131313 gui=NONE
