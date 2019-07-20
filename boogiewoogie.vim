@@ -253,3 +253,10 @@ hi scptApp			ctermfg=NONE ctermBG=NONE cterm=italic guifg=#067BC3 guibg=NONE gui
 hi scptENDIF			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 hi scptString			ctermfg=NONE ctermBG=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
 hi scptDelimiter		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
+
+" c
+hi cType			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#067BC3 guibg=NONE gui=bold
+hi cNumber			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
+hi cUserFunction		ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+hi cStatement			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+hi cIncluded			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
