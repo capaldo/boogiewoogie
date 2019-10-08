@@ -64,7 +64,7 @@ hi StorageClass			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE 
 hi String			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
 hi Tag				ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi Title			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
-hi Todo				ctermfg=NONE ctermbg=NONE cterm=inverse,bold guifg=#067BC3 guibg=NONE gui=inverse,bold
+hi Todo				ctermfg=NONE ctermbg=NONE cterm=bold guifg=NONE guibg=#067BC3 gui=bold
 hi Type				ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Underlined			ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 
