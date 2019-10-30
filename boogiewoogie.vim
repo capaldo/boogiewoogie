@@ -64,7 +64,7 @@ hi StorageClass			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE 
 hi String			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
 hi Tag				ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=NONE
 hi Title			ctermfg=NONE ctermbg=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
-hi Todo				ctermfg=NONE ctermbg=NONE cterm=bold guifg=NONE guibg=#067BC3 gui=bold
+hi Todo				ctermfg=NONE ctermbg=NONE cterm=bold guifg=#131313 guibg=#067BC3 gui=bold
 hi Type				ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Underlined			ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 
@@ -252,7 +252,7 @@ hi shSLA			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bol
 hi scptCond			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 hi scptApp			ctermfg=NONE ctermBG=NONE cterm=italic guifg=#067BC3 guibg=NONE gui=italic
 hi scptENDIF			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
-hi scptString			ctermfg=NONE ctermBG=NONE cterm=italic guifg=#F0F0F0 guibg=NONE gui=italic
+hi scptString			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
 hi scptDelimiter		ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
 
 " c
