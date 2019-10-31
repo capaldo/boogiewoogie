@@ -10,11 +10,11 @@ This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by t
 
 ## Color Scheme 
 
-<p align="center">
+
     
 | Color        | Hex Code | Sample                                    |
 | ------------ | -------- |-------------------------------------------|
-| Black        | #000000  |![#f03c15](https://placehold.it/20/f03c15/000000?text=+)</span>|
+| Black        | #000000  |<td align="center">![#f03c15](https://placehold.it/20/f03c15/000000?text=+)</td>|
 | Light Black  | #131313  |                                           |
 | Grey         | #383838  |                                           |
 | White        | #F0F0F0  |                                           |
