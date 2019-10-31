@@ -11,7 +11,7 @@ This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by t
 ## Color Scheme 
 | Color        | Hex Code | Sample                                    |
 | ------------ | -------- |-------------------------------------------|
-| Black        | #000000  |<span style="background-color:red"></span> |
+| Black        | #000000  |<td bgcolor="red"></td>                    |
 | Light Black  | #131313  |                                           |
 | Grey         | #383838  |                                           |
 | White        | #F0F0F0  |                                           |
