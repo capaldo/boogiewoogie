@@ -14,7 +14,7 @@ This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by t
     
 | Color        | Hex Code |Sample
 | ------------ | -------- |-------------------------------------------------------------|
-| Black        | #000000  |![#f03c15](https://placehold.it/20/f03c15/000000?text=+)</td>|
+| Black        | #000000  |![#f03c15](https://placehold.it/20/f03c15/000000?text=+)     |
 | Light Black  | #131313  |                                           |
 | Grey         | #383838  |                                           |
 | White        | #F0F0F0  |                                           |
