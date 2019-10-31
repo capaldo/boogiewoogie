@@ -24,6 +24,7 @@ This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by t
 | Blue         | #067BC3  |                                           |
 
 </p>
+
 ## TODO
 - [ ] add more syntaxes to vim colorscheme
 - [x] add lightline theme
