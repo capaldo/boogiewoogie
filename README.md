@@ -9,6 +9,8 @@
 This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by the colors seen on Piet Mondrian's *Broadway Boogie Woogie* and *Victory Boogie Woogie*. It's currently only is available in a dark mode variant. For a matching Anki theme, check out the [ankiBW repository](https://github.com/capaldo/ankiBW).
 
 ## Color Scheme 
+
+<p align="center">
 | Color        | Hex Code | Sample                                    |
 | ------------ | -------- |-------------------------------------------|
 | Black        | #000000  |![#f03c15](https://placehold.it/20/f03c15/000000?text=+)</span>|
@@ -19,7 +21,7 @@ This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by t
 | Green        | #56C13F  |                                           |
 | Red          | #D62317  |                                           |
 | Blue         | #067BC3  |                                           |
-
+</p>
 ## TODO
 - [ ] add more syntaxes to vim colorscheme
 - [x] add lightline theme
