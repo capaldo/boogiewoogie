@@ -24,10 +24,3 @@ This is a theme that I'm currently using for iTerm, vim, and cmus; inspired by t
 | Blue         | #067BC3  |![#067BC3](https://placehold.it/20/067BC3/000000?text=+)|
 
 </p>
-
-## TODO
-- [ ] add more syntaxes to vim colorscheme
-- [x] add lightline theme
-- [x] add cmus theme
-    - [x] installation instructions for cmus
-    - [ ] easy-install script
