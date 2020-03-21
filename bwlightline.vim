@@ -1,8 +1,7 @@
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/boogiewoogie.vim
-" Author: itchyny
+" Author: Alexander Capaldo
 " License: MIT License
-" Last Change: 2013/09/07 15:54:41.
 " =============================================================================
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
