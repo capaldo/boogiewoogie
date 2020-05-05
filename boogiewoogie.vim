@@ -81,7 +81,15 @@ hi Conceal		    ctermfg=NONE    ctermbg=NONE    cterm=NONE	    guifg=#FF453A	gui
 hi mkdHigh		    ctermfg=NONE    ctermbg=NONE    cterm=NONE	    guifg=#1C1C1E	guibg=#FFD60A	    gui=bold
 hi mkdUniBullet		    ctermfg=NONE    ctermbg=NONE    cterm=NONE	    guifg=#FF453A	guibg=NONE	    gui=NONE
 
+hi markdownBoldDelimiter    ctermfg=NONE    ctermbg=NONE    cterm=NONE	    guifg=#636366	guibg=NONE	    gui=NONE
+hi htmlBold		    ctermfg=NONE    ctermbg=NONE    cterm=bold	    guifg=#30D158	guibg=NONE	    gui=bold
+hi markdownItalicDelimiter  ctermfg=NONE    ctermbg=NONE    cterm=NONE	    guifg=#636366	guibg=NONE	    gui=NONE
+hi htmlItalic		    ctermfg=NONE    ctermbg=NONE    cterm=italic    guifg=#FFD60A	guibg=NONE	    gui=italic
 
+hi markdownH1Delimiter	    ctermfg=NONE    ctermbg=NONE    cterm=NONE	    guifg=#636366	guibg=NONE	    gui=NONE
+hi markdownH2Delimiter	    ctermfg=NONE    ctermbg=NONE    cterm=NONE	    guifg=#636366	guibg=NONE	    gui=NONE
+hi htmlH1		    ctermfg=NONE    ctermbg=NONE    cterm=bold	    guifg=#FFFFFF	guibg=NONE	    gui=bold
+hi htmlH2		    ctermfg=NONE    ctermbg=NONE    cterm=bold	    guifg=#FFFFFF	guibg=NONE	    gui=bold
 
 
 
