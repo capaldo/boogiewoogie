@@ -1,19 +1,20 @@
-" ===========================================================================================================
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 " general
-" ===========================================================================================================
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 set background=dark
 highlight clear
 set t_Co=256
 if exists("syntax_on")
-  syntax reset
+    syntax reset
 endif
 
-" ===========================================================================================================
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 " lets boogie
-" ===========================================================================================================
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 let g:colors_name = "boogiewoogie"
 
 
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 " general vim
 " ===========================================================================================================
 hi Cursor			cterm=NONE guifg=#131313 guibg=#F0F0F0
@@ -128,6 +129,7 @@ hi yamlKey			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#D62317 guibg=NONE gui=N
 hi yamlAnchor			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlAlias			ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlDocumentHeader		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NONE
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 " CSS
 " ===========================================================================================================
@@ -170,6 +172,10 @@ hi cssFunctionName		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FBDB42 guibg=NON
 " ===========================================================================================================
 hi pythonStatement		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=italic
 hi pythonBuiltin		ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#067BC3 guibg=NONE gui=italic
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+" markdown
+" note: mkdHigh and mkdUniBullet is a custom syntax group
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 " markdown - plasticboy
 " ===========================================================================================================
@@ -247,6 +253,9 @@ hi shMCMD			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#FBDB42 guibg=NONE gui=NO
 hi shTr				ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi shFa				ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=NONE
 hi shSLA			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#F0F0F0 guibg=NONE gui=bold
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+" zsh
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 " applescript
 hi scptCond			ctermfg=NONE ctermBG=NONE cterm=bold guifg=#FBDB42 guibg=NONE gui=bold
@@ -261,3 +270,6 @@ hi cNumber			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#56C13F guibg=NONE gui=N
 hi cUserFunction		ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
 hi cStatement			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
 hi cIncluded			ctermfg=NONE ctermBG=NONE cterm=NONE guifg=#F0F0F0 guibg=NONE gui=NONE
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+" git-gutter
+" ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
